@@ -251,18 +251,17 @@ module.exports = generators.Base.extend({
           includeJQuery: this.includeJQuery,
           bsPath: bsPath,
           bsPlugins: [
-            'affix',
             'alert',
-            'dropdown',
-            'tooltip',
-            'modal',
-            'transition',
             'button',
-            'popover',
             'carousel',
-            'scrollspy',
             'collapse',
-            'tab'
+            'dropdown',
+            'modal',
+            'popover',
+            'scrollspy',
+            'tab',
+            'tooltip',
+            'util'
           ]
         }
       );
